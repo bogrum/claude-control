@@ -349,5 +349,3 @@ PRs welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 ## Related
 
 - [anthropics/skills](https://github.com/anthropics/skills) — official Anthropic skills
-- [obra/superpowers](https://github.com/obra/superpowers) — community skill library
-- [JoeyBream/command-centre](https://github.com/JoeyBream/command-centre) — sister project: a *launcher* for skills (this is a *manager*)
