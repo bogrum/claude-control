@@ -127,12 +127,12 @@ Add a `tags:` list to a skill's frontmatter and it'll appear in the sidebar:
 
 ```yaml
 ---
-name: bam2mito
-description: Mitochondrial DNA analysis pipeline.
+name: code-review 
+description: Reviews a pull request and summarizes key issues.
 tags:
-  - bioinformatics
-  - mitochondria
-  - pipeline
+  - git 
+  - review
+  - productivity
 ---
 ```
 
