@@ -1,0 +1,76 @@
+# --- Secrets / credentials -----------------------------------------------
+# NEVER commit any of these. They are listed first so the rule is explicit.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials.json
+.claude/
+.claude.json
+config.local.json
+settings.local.json
+
+# API keys / tokens occasionally land in editor files
+*.token
+*_secret*
+*_api_key*
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Node (in case you add a JS toolchain later) --------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- OS / editor ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# --- Project-specific ---------------------------------------------------
+# Local development scratch dir
+/scratch/
+/tmp/
+*.log
+
+# Sample skills directory used for testing — never commit real user data
+/test-claude-home/
+
+# Runtime files written by launcher.py
+/launcher-runtime/
+
+# Platform-specific build artifacts
+/assets/icon.icns
+/assets/icon.ico
+*.app/
+
+# OS-specific cruft (also covered above but explicit)
+.DS_Store
+ehthumbs.db
+Thumbs.db

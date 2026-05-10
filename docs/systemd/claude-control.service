@@ -1,0 +1,16 @@
+[Unit]
+Description=claude-control local dashboard
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/claude-control
+ExecStart=%h/claude-control/.venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8765
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+# To manage a non-default CLAUDE_HOME:
+# Environment=CLAUDE_HOME=%h/.claude
+
+[Install]
+WantedBy=default.target

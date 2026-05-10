@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1c15"/>
+      <stop offset="100%" stop-color="#0e0d0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#e89149" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#e89149" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <rect width="256" height="256" rx="48" fill="url(#glow)"/>
+  <!-- Concentric arcs suggesting a control dial -->
+  <circle cx="128" cy="128" r="72" fill="none" stroke="#2a261c" stroke-width="2"/>
+  <circle cx="128" cy="128" r="56" fill="none" stroke="#2a261c" stroke-width="2"/>
+  <!-- Active arc -->
+  <path d="M 128 56 A 72 72 0 0 1 200 128" fill="none" stroke="#e89149" stroke-width="6" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="128" cy="128" r="10" fill="#e89149"/>
+  <!-- Indicator -->
+  <circle cx="200" cy="128" r="6" fill="#f5efe0"/>
+</svg>
