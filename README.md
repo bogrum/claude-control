@@ -2,14 +2,13 @@
 
 [![python](https://img.shields.io/badge/python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![license](https://img.shields.io/badge/license-MIT-A3E635)](LICENSE)
-[![ci](https://img.shields.io/github/actions/workflow/status/YOUR_USER/claude-control/ci.yml?branch=main&label=ci)](.github/workflows/ci.yml)
 
 [![platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-555)](#install)
 [![Linux](https://img.shields.io/badge/Linux-supported-A3E635?logo=linux&logoColor=white)](#ubuntu--linux-gnome-kde-xfce-cinnamon-mate)
 [![macOS](https://img.shields.io/badge/macOS-supported-A3E635?logo=apple&logoColor=white)](#macos-12-monterey-or-newer)
 [![Windows](https://img.shields.io/badge/Windows-supported-A3E635?logo=windows&logoColor=white)](#windows-10--11)
 
-> A small, local dashboard for managing your Claude Code skills, plugins, agents, and commands. Runs as a real desktop app on Linux, macOS, and Windows — no terminal needed after install.
+> A small, local dashboard for managing your Claude Code skills, plugins, agents, and commands. Runs as a real desktop app on Linux, macOS, and Windows. No terminal is needed after installation.
 
 When you start collecting skills, you lose track of what's installed, what's on, what's stale. `claude-control` gives you one place to see and manage everything in your `~/.claude/` directory: toggle skills on or off, edit them inline, validate their frontmatter, bulk-import from marketplace repos, and add or remove with a click.
 
