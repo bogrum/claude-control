@@ -282,7 +282,7 @@ Reporting a vulnerability: open a [GitHub Security Advisory](https://docs.github
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USER/claude-control.git
+git clone https://github.com/femrebora/claude-control.git
 cd claude-control
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
