@@ -199,7 +199,7 @@ def _scan_plugins_from_manifest() -> list[dict]:
         out.append({
             "name": plugin_name,
             "description": description[:240],
-            "path": str(install_path.relative_to(_claude_home())) if install_path.exists() else key,
+            "path": str(install_path.relative_to(_claude_home())) if (install_path.exists() and install_path.is_relative_to(_claude_home())) else (str(install_path) if install_path.exists() else key),
             "kind": "plugins",
             "state": "on",
             "is_dir": True,

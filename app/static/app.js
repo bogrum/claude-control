@@ -139,7 +139,7 @@ function card(it) {
         ${stateButtons}
         ${editBtn}
         ${validateBtn}
-        ${isPlugin ? "" : `<button class="btn danger" data-act="delete" data-kind="${it.kind}" data-base="${escapeAttr(base)}" data-path="${escapeAttr(it.path)}">delete</button>`}
+        ${(isPlugin && it.version) ? "" : `<button class="btn danger" data-act="delete" data-kind="${it.kind}" data-base="${escapeAttr(base)}" data-path="${escapeAttr(it.path)}">delete</button>`}
       </div>
     </article>`;
 }
