@@ -41,7 +41,7 @@ It runs entirely on your machine. No telemetry, no remote calls, no auth needed 
 ### Ubuntu / Linux (GNOME, KDE, XFCE, Cinnamon, MATE)
 
 ```bash
-git clone https://github.com/YOUR_USER/claude-control.git ~/claude-control
+git clone https://github.com/femrebora/claude-control.git ~/claude-control
 cd ~/claude-control
 ./install.sh
 ```
@@ -51,7 +51,7 @@ Press **Super**, type "Claude Control", click. Pin to dock by right-clicking the
 ### macOS (12 Monterey or newer)
 
 ```bash
-git clone https://github.com/YOUR_USER/claude-control.git ~/claude-control
+git clone https://github.com/femrebora/claude-control.git ~/claude-control
 cd ~/claude-control
 ./install-macos.sh
 ```
@@ -63,7 +63,7 @@ Builds a real `.app` bundle at `~/Applications/Claude Control.app`. Open it from
 In **PowerShell**:
 
 ```powershell
-git clone https://github.com/YOUR_USER/claude-control.git $HOME\claude-control
+git clone https://github.com/femrebora/claude-control.git $HOME\claude-control
 cd $HOME\claude-control
 .\install.ps1
 ```
@@ -73,7 +73,7 @@ If PowerShell complains about execution policy, run once: `Set-ExecutionPolicy -
 ### Manual / dev install (any OS)
 
 ```bash
-git clone https://github.com/YOUR_USER/claude-control.git
+git clone https://github.com/femrebora/claude-control.git
 cd claude-control
 python -m venv .venv
 source .venv/bin/activate          # Linux/macOS
